@@ -12,7 +12,7 @@ function App() {
   const onClick = () => {
     confetti({
       particleCount: 20,
-      spread: 30
+      spread: 20
     })
   }
   
