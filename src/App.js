@@ -17,10 +17,11 @@ function App() {
   }
   
   return (
+    <div className='card'>
     <div className="App">
-      <div> Hello world
+      <div> 
         <h1>Briyani 350</h1>
-        <img src="https://th.bing.com/th/id/OIP.f9Ng-73ZMEfbfjNPAT-YSAHaFj?pid=ImgDet&rs=1" alt="" width="500px"></img>
+        <img src="https://th.bing.com/th/id/OIP.f9Ng-73ZMEfbfjNPAT-YSAHaFj?pid=ImgDet&rs=1" alt="" width="100px"></img>
         <p>
           <img src="https://www.freepngimg.com/thumb/map/62873-map-computer-location-icon-icons-free-transparent-image-hd.png"
           alt="map" width='30px' height='30px'></img>
@@ -28,7 +29,7 @@ function App() {
           <img src="https://www.logolynx.com/images/logolynx/07/07a8dfdca677a1b24d8b98a24c9c05ab.png"
             alt="wp" width="30" height="34" ></img>
           <h5>8765497767</h5>
-        </p>
+        </p> 
         <div className="columns"></div>
         <ul className="price">
           price list <br/>
@@ -41,7 +42,8 @@ function App() {
     </button>
         </ul>
       </div>
-    </div>
+      </div>
+      </div>
   );
 }
 
